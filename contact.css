@@ -1,0 +1,83 @@
+#coding{
+    display: none;
+}input{
+    height:60px;
+    width:600px;
+    margin: 10px;
+    border: 3px solid black;
+    margin: 20px;
+}
+#messages{
+margin: 25px;
+width: 600px;
+}
+.website{
+    position: absolute;
+    left: 400px;
+    font-size: 4rem;
+    margin-left: 180px;
+    margin-top: -35px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.major{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+    width: auto;
+    height: auto;
+  }
+  .formclass{
+    margin-top:850px;
+  }
+  label{
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+  }
+ /* .sidebar{
+    font-size: 22px;
+    background-color:rgb(240, 227, 227);
+    position:absolute;
+    width: 10vw;
+    box-sizing: border-box;
+    background-size: cover;
+}  */
+
+#submit{
+    margin-top: 30px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    height: 80px;
+    border-radius: 16px;
+    color:grey;
+    font-size: bold;
+}#grid{
+    height: 100px;
+    width: 100px;
+}
+@media screen and (max-width: 540px) {
+    
+    .formclass{
+        margin-top: 400px;
+    }
+    label{
+        font-size: 60px;
+    }
+    #submit{
+        width: 300px;
+        text-align: center;
+        height: 50px;
+    }
+      }
+@media screen and (max-width: 540px) {
+.formclass{
+    margin-top: 800px; 
+}
+#submit{
+    height: 100px;
+}
+}
